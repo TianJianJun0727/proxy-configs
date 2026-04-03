@@ -1,0 +1,8 @@
+# 规则名称: Cursor规则
+# 规则统计: 5
+
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,download.todesktop.com

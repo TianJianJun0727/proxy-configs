@@ -1,0 +1,7 @@
+# 规则名称: Sentry规则
+# 规则统计: 4
+
+DOMAIN-SUFFIX, sentry-cdn.com
+DOMAIN-SUFFIX, sentry.io
+DOMAIN-SUFFIX, getsentry.net
+DOMAIN-SUFFIX, getsentry.com

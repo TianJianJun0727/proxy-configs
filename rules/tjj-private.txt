@@ -1,0 +1,16 @@
+# 规则名称: 私有规则
+# 规则统计: 9
+
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,download.todesktop.com
+
+DOMAIN-SUFFIX,sentry-cdn.com
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,getsentry.net
+DOMAIN-SUFFIX,getsentry.com
+DOMAIN-SUFFIX,sentry.zendesk.com
+
+DOMAIN-SUFFIX,figma.com

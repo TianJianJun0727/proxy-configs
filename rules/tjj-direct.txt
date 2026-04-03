@@ -1,0 +1,9 @@
+# 规则名称: 自定义直连规则
+# 规则统计: 5
+
+DOMAIN, appstorrent.ru
+DOMAIN-SUFFIX, mg.aid.pub
+DOMAIN-SUFFIX, pc528.net
+DOMAIN-SUFFIX, qipeng.com
+DOMAIN-SUFFIX, yunpian.com
+DOMAIN-SUFFIX, ycloud.com
