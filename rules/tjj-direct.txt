@@ -1,5 +1,5 @@
 # 规则名称: 自定义直连规则
-# 规则统计: 6
+# 规则统计: 8
 
 DOMAIN, appstorrent.ru
 DOMAIN-SUFFIX, mg.aid.pub
@@ -8,3 +8,4 @@ DOMAIN-SUFFIX, qipeng.com
 DOMAIN-SUFFIX, yunpian.com
 DOMAIN-SUFFIX, ycloud.com
 DOMAIN-SUFFIX, landiannews.com
+DOMAIN-SUFFIX, staticasset.flowaccess.org
