@@ -12,26 +12,31 @@ DOMAIN-SUFFIX,download.todesktop.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,chatgptusercontent.com
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,chatgpt
 
 # ===== Anthropic Claude =====
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
 
 # ===== Google Gemini =====
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,deepmind.com
+DOMAIN-KEYWORD,gemini
 
 # ===== xAI Grok =====
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,api.x.ai
+DOMAIN-KEYWORD,grok
 
 # ===== GitHub Copilot =====
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
-DOMAIN-SUFFIX,api.githubcopilot.com
 
 # ===== Perplexity =====
 DOMAIN-SUFFIX,perplexity.ai
