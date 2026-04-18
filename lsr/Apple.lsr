@@ -1,8 +1,9 @@
-# === Apple Services - DIRECT（终极精简稳定版）===
+# === Apple Services ===
 
 # ===== Core =====
 DOMAIN-SUFFIX,apple.com
 DOMAIN-SUFFIX,apple.cn
+DOMAIN-SUFFIX,cdn-apple.com
 DOMAIN-SUFFIX,icloud.com
 DOMAIN-SUFFIX,icloud.com.cn
 DOMAIN-SUFFIX,me.com
@@ -14,12 +15,24 @@ DOMAIN-SUFFIX,itunes.com
 DOMAIN-SUFFIX,itun.es
 DOMAIN-SUFFIX,appstore.com
 DOMAIN-SUFFIX,applemusic.com
+DOMAIN-SUFFIX,apple.news
 DOMAIN-SUFFIX,apple-mapkit.com
 DOMAIN-SUFFIX,apple-cloudkit.com
 DOMAIN-SUFFIX,apple-livephotoskit.com
 
-# Apple ID（关键）
+# ===== Explicit High-Priority Hosts =====
+DOMAIN,account.apple.com
 DOMAIN,appleid.apple.com
+DOMAIN,appleid.cdn-apple.com
+DOMAIN,idmsa.apple.com
+DOMAIN,gsa.apple.com
+DOMAIN,apps.apple.com
+DOMAIN,itunes.apple.com
+DOMAIN,ppq.apple.com
+DOMAIN,gs.apple.com
+DOMAIN,mesu.apple.com
+DOMAIN,xp.apple.com
+DOMAIN,configuration.apple.com
 
 # ===== Private Relay =====
 DOMAIN,apple-relay.cloudflare.com
@@ -28,12 +41,15 @@ DOMAIN,apple-relay.apple.com
 DOMAIN-SUFFIX,mask.icloud.com
 DOMAIN-SUFFIX,mask-h2.icloud.com
 
-# ===== Developer =====
-DOMAIN-KEYWORD,testflight
+# ===== Push / APNs =====
+DOMAIN,push.apple.com
 
-# ===== Apple CDN（精准匹配）=====
-DOMAIN-KEYWORD,apple.com.edgekey.net
-DOMAIN-KEYWORD,apple.com.akadns.net
+# ===== Developer =====
+DOMAIN-SUFFIX,testflight.apple.com
+
+# ===== Apple CDN =====
+DOMAIN-SUFFIX,apple.com.edgekey.net
+DOMAIN-SUFFIX,apple.com.akadns.net
 
 # ===== IP =====
 IP-CIDR,17.0.0.0/8,no-resolve
