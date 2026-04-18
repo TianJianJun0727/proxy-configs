@@ -1,5 +1,4 @@
 # 规则名称: 自定义直连规则
-# 规则统计: 8
 
 DOMAIN, appstorrent.ru
 DOMAIN-SUFFIX, mg.aid.pub
