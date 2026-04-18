@@ -1,5 +1,4 @@
 # 规则名称: AI IDE 规则
-# 规则统计: 5
 
 # Cursor规则
 DOMAIN-SUFFIX,cursor.sh
@@ -7,3 +6,60 @@ DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursor-cdn.com
 DOMAIN-SUFFIX,download.todesktop.com
+
+# === Cursor ===
+DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,todesktop.com
+DOMAIN-SUFFIX,download.todesktop.com
+
+# === GitHub Copilot ===
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
+DOMAIN-SUFFIX,api.githubcopilot.com
+DOMAIN-SUFFIX,githubusercontent.com
+
+# === OpenAI / ChatGPT（很多IDE底层用）===
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# === Anthropic Claude（Cursor / Windsurf 常用）===
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+
+# === Google Gemini（部分IDE支持）===
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,makersuite.google.com
+
+# === Codeium（免费AI补全）===
+DOMAIN-SUFFIX,codeium.com
+
+# === Tabnine ===
+DOMAIN-SUFFIX,tabnine.com
+
+# === Replit Ghostwriter ===
+DOMAIN-SUFFIX,replit.com
+
+# === Phind（AI开发搜索）===
+DOMAIN-SUFFIX,phind.com
+
+# === Perplexity（有些人接IDE）===
+DOMAIN-SUFFIX,perplexity.ai
+
+# === Sourcegraph Cody ===
+DOMAIN-SUFFIX,sourcegraph.com
+
+# === Windsurf（Codeium新IDE）===
+DOMAIN-SUFFIX,windsurf.ai
+
+# === Continue.dev（本地+云混合IDE插件）===
+DOMAIN-SUFFIX,continue.dev
+
+# === Vercel AI（有些插件依赖）===
+DOMAIN-SUFFIX,vercel.ai
+DOMAIN-SUFFIX,vercel.com
+
