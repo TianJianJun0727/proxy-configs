@@ -1,141 +1,113 @@
-# 规则名称: AI IDE 规则
+# === AI IDE & Coding Tools Rules (2026 增强版) ===
+# 规则顺序：DOMAIN → DOMAIN-SUFFIX → DOMAIN-KEYWORD
 
-# === Cursor ===
+# ===== Cursor (AI-native IDE) =====
 DOMAIN-SUFFIX,cursor.sh
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursorapi.com
 DOMAIN-SUFFIX,cursor-cdn.com
-DOMAIN-SUFFIX,apix.cursor.sh          
-DOMAIN-SUFFIX,repo42.cursor.sh
+DOMAIN-SUFFIX,apix.cursor.sh
+DOMAIN-SUFFIX,api.cursor.sh
 DOMAIN-SUFFIX,todesktop.com
 DOMAIN-SUFFIX,download.todesktop.com
-DOMAIN-KEYWORD,cursor
 
-# ===== OpenAI / ChatGPT /Codex =====
+# ===== OpenAI / ChatGPT =====
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,api.openai.com    
-DOMAIN-SUFFIX,cdn.openai.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,chatgptusercontent.com
-DOMAIN-KEYWORD,openai
-DOMAIN-KEYWORD,chatgpt
+DOMAIN-SUFFIX,api.openai.com
+DOMAIN-SUFFIX,cdn.openai.com
+DOMAIN-SUFFIX,auth.openai.com
+DOMAIN-SUFFIX,uploads.openai.com
 
 # ===== Anthropic Claude =====
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
-DOMAIN-SUFFIX,claude.com           
 DOMAIN-SUFFIX,api.anthropic.com
-DOMAIN-KEYWORD,anthropic
-DOMAIN-KEYWORD,claude
+DOMAIN-SUFFIX,claude.com
 
 # ===== Google Gemini =====
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,makersuite.google.com
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,deepmind.com
-DOMAIN-KEYWORD,gemini
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
 
 # ===== xAI Grok =====
 DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,api.x.ai
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grok.x.ai
-DOMAIN-KEYWORD,grok
 
 # ===== GitHub Copilot =====
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
-DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
+DOMAIN-SUFFIX,copilot-telemetry.githubusercontent.com
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,api.github.com
-DOMAIN-SUFFIX,copilot-telemetry.githubusercontent.com
-DOMAIN-SUFFIX,origin-tracker.githubusercontent.com
+DOMAIN-SUFFIX,api.githubcopilot.com
 DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-KEYWORD,copilot
 
-# ===== Windsurf =====
+# ===== Windsurf / Codeium =====
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,windsurf.ai
-DOMAIN-SUFFIX,api.codeium.com
-DOMAIN-SUFFIX,codeium.ai
-DOMAIN-KEYWORD,codeium
-DOMAIN-KEYWORD,windsurf
+DOMAIN-SUFFIX,server.codeium.com
+DOMAIN-SUFFIX,web-backend.codeium.com
+DOMAIN-SUFFIX,inference.codeium.com
+DOMAIN-SUFFIX,unleash.codeium.com
 
-# ===== Perplexity =====
-DOMAIN-SUFFIX,perplexity.ai
-
-# ===== Poe（模型聚合）=====
-DOMAIN-SUFFIX,poe.com
-
-# ===== Phind（开发者AI搜索）=====
+# ===== 其他 AI Coding Tools =====
+DOMAIN-SUFFIX,amazonq.com
+DOMAIN-SUFFIX,jetbrains.com
+DOMAIN-SUFFIX,jetbrains.ai
+DOMAIN-SUFFIX,api.jetbrains.com
+DOMAIN-SUFFIX,continue.dev
+DOMAIN-SUFFIX,sourcegraph.com
+DOMAIN-SUFFIX,tabnine.com
+DOMAIN-SUFFIX,replit.com
 DOMAIN-SUFFIX,phind.com
+DOMAIN-SUFFIX,augmentcode.com
+DOMAIN-SUFFIX,v0.dev
+DOMAIN-SUFFIX,aider.chat
 
-# ===== Hugging Face =====
+# ===== 模型聚合 & API 平台 =====
+DOMAIN-SUFFIX,poe.com
+DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,hf.co
-
-# ===== Replicate（模型API）=====
 DOMAIN-SUFFIX,replicate.com
-
-# ===== Stability AI（SD / API）=====
 DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,fireworks.ai
+DOMAIN-SUFFIX,anyscale.com
+DOMAIN-SUFFIX,cohere.ai
+DOMAIN-SUFFIX,ai21.com
+DOMAIN-SUFFIX,inference.huggingface.co
 
-# ===== Midjourney（走Discord）=====
+# ===== 语音 / 多媒体 AI =====
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,assemblyai.com
 DOMAIN-SUFFIX,midjourney.com
 
-# ===== Runway（视频AI）=====
-DOMAIN-SUFFIX,runwayml.com
-
-# ===== ElevenLabs（语音）=====
-DOMAIN-SUFFIX,elevenlabs.io
-
-# ===== AssemblyAI（语音识别）=====
-DOMAIN-SUFFIX,assemblyai.com
-
-# ===== Vercel AI / SDK =====
+# ===== 通用基础设施（建议保留最小集）=====
 DOMAIN-SUFFIX,vercel.ai
-
-# ===== Together.ai（模型聚合API）=====
-DOMAIN-SUFFIX,together.ai
-
-# ===== Fireworks.ai =====
-DOMAIN-SUFFIX,fireworks.ai
-
-# ===== Anyscale（Ray / LLM）=====
-DOMAIN-SUFFIX,anyscale.com
-
-# ===== Cohere =====
-DOMAIN-SUFFIX,cohere.ai
-
-# ===== AI21 Labs =====
-DOMAIN-SUFFIX,ai21.com
-
-# ===== Character.ai =====
+DOMAIN-SUFFIX,vercel.com
+DOMAIN-SUFFIX,vercel.app
+DOMAIN-SUFFIX,jan.ai
 DOMAIN-SUFFIX,character.ai
 
-# ===== Jan.ai（本地+云）=====
-DOMAIN-SUFFIX,jan.ai
-
-# ===== Continue.dev（IDE插件）=====
-DOMAIN-SUFFIX,continue.dev
-
-# ===== Codeium / Windsurf =====
-DOMAIN-SUFFIX,codeium.com
-DOMAIN-SUFFIX,windsurf.ai
-
-# ===== Tabnine =====
-DOMAIN-SUFFIX,tabnine.com
-
-# ===== Replit =====
-DOMAIN-SUFFIX,replit.com
-
-# ===== Sourcegraph Cody =====
-DOMAIN-SUFFIX,sourcegraph.com
-
-# ===== 通用CDN（部分AI依赖）=====
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,workers.dev
-
+# ===== DOMAIN-KEYWORD（兜底）=====
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,chatgpt
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,gemini
+DOMAIN-KEYWORD,grok
+DOMAIN-KEYWORD,copilot
+DOMAIN-KEYWORD,cursor
+DOMAIN-KEYWORD,windsurf
+DOMAIN-KEYWORD,codeium
+DOMAIN-KEYWORD,ai
