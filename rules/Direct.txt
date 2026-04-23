@@ -9,4 +9,4 @@ DOMAIN-SUFFIX, ycloud.com
 DOMAIN-SUFFIX, taovip.com
 DOMAIN-SUFFIX, apollo
 DOMAIN-SUFFIX, landiannews.com
-DOMAIN-SUFFIX, staticasset.flowaccess.org
+
