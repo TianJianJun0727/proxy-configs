@@ -1,12 +1,13 @@
 # 规则名称: 自定义直连规则
 
 DOMAIN, appstorrent.ru, DIRECT
+DOMAIN-SUFFIX,pc528.net, DIRECT
+DOMAIN-SUFFIX, landiannews.com, DIRECT
+DOMAIN-SUFFIX, staticasset.flowaccess.org, DIRECT
 DOMAIN-SUFFIX, mg.aid.pub, DIRECT
-DOMAIN-SUFFIX, pc528.net, DIRECT
 DOMAIN-SUFFIX, qipeng.com, DIRECT
 DOMAIN-SUFFIX, yunpian.com, DIRECT
 DOMAIN-SUFFIX, ycloud.com, DIRECT
 DOMAIN-SUFFIX, taovip.com, DIRECT
-DOMAIN-SUFFIX, apollo, DIRECT
-DOMAIN-SUFFIX, landiannews.com, DIRECT
-DOMAIN-SUFFIX, staticasset.flowaccess.org, DIRECT
+DOMAIN-KEYWORD, ycloud, DIRECT
+
