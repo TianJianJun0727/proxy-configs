@@ -1,3 +1,13 @@
+# NAME: Apple_Push
+# AUTHOR: TianJianJun0727
+# REPO: https://github.com/TianJianJun0727/proxy-configs
+# UPDATED: 2026-07-03 17:52:45
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 2
+# IP-CIDR: 5
+# IP-CIDR6: 4
+# TOTAL: 12
+
 payload:
   - DOMAIN-SUFFIX,push.apple.com
   - DOMAIN-SUFFIX,akadns.net

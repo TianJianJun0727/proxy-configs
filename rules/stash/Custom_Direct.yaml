@@ -1,3 +1,12 @@
+# NAME: Custom_Direct
+# AUTHOR: TianJianJun0727
+# REPO: https://github.com/TianJianJun0727/proxy-configs
+# UPDATED: 2026-07-03 17:52:45
+# DOMAIN: 1
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 7
+# TOTAL: 9
+
 payload:
   - DOMAIN,appstorrent.ru
   - DOMAIN-SUFFIX,pc528.net
