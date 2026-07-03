@@ -5,9 +5,9 @@
 # DOMAIN: 1
 # DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 7
-# IP-CIDR: 10
+# IP-CIDR: 9
 # IP-CIDR6: 3
-# TOTAL: 22
+# TOTAL: 21
 
 payload:
   - DOMAIN,appstorrent.ru
@@ -25,7 +25,6 @@ payload:
   - IP-CIDR,127.0.0.0/8,no-resolve
   - IP-CIDR,169.254.0.0/16,no-resolve
   - IP-CIDR,100.64.0.0/10,no-resolve
-  - IP-CIDR,198.18.0.0/15,no-resolve
   - IP-CIDR,192.0.0.0/24,no-resolve
   - IP-CIDR6,fc00::/7,no-resolve
   - IP-CIDR6,fe80::/10,no-resolve
