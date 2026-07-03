@@ -12,6 +12,7 @@ Personal proxy configuration assets for Stash and Loon.
 ## Rule Files
 
 - `Custom_Direct` - custom direct rules.
+- `AI` - AI service rules synced from iKeLee.
 - `Apple_Push` - APNs push notification rules based on Stash FAQ and Apple's APNs network ranges.
 
 ## Raw URLs
@@ -19,6 +20,7 @@ Personal proxy configuration assets for Stash and Loon.
 Stash:
 
 - `https://raw.githubusercontent.com/TianJianJun0727/proxy-configs/refs/heads/main/rules/stash/Custom_Direct.yaml`
+- `https://raw.githubusercontent.com/TianJianJun0727/proxy-configs/refs/heads/main/rules/stash/AI.yaml`
 - `https://raw.githubusercontent.com/TianJianJun0727/proxy-configs/refs/heads/main/rules/stash/Apple_Push.yaml`
 
 Loon:
