@@ -1,0 +1,22 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain": [
+        "appstorrent.ru"
+      ],
+      "domain_suffix": [
+        "pc528.net",
+        "landiannews.com",
+        "mg.aid.pub",
+        "qipeng.com",
+        "yunpian.com",
+        "ycloud.com",
+        "taovip.com"
+      ],
+      "domain_keyword": [
+        "ycloud"
+      ]
+    }
+  ]
+}
