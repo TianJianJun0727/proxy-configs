@@ -1,19 +1,14 @@
 # NAME: Custom_Direct
 # AUTHOR: TianJianJun0727
 # REPO: https://github.com/TianJianJun0727/proxy-configs
-# UPDATED: 2026-10-10 18:27:34
+# UPDATED: 2026-11-18 23:56:00
 # DOMAIN: 1
-# DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 7
-# TOTAL: 9
+# DOMAIN-KEYWORD: 0
+# DOMAIN-SUFFIX: 3
+# TOTAL: 4
 
 DOMAIN,appstorrent.ru
 DOMAIN-SUFFIX,pc528.net
 DOMAIN-SUFFIX,landiannews.com
-DOMAIN-SUFFIX,mg.aid.pub
-DOMAIN-SUFFIX,qipeng.com
-DOMAIN-SUFFIX,yunpian.com
-DOMAIN-SUFFIX,ycloud.com
-DOMAIN-SUFFIX,taovip.com
 DOMAIN-SUFFIX,downloadly.ir
 
